@@ -1,0 +1,64 @@
+.grid-proyectos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+
+  @include ResComputer {
+    grid-template-columns:repeat(3, 1fr);
+  }
+
+  @include ResTablet {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @include ResCell {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+.card {
+  background-color: $color-blanco;
+  border-radius: 15px;
+
+  box-shadow: 0 4px 8px rgb(9, 6, 6);
+  transition: 0.3s;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+
+  .card-body {
+    padding: 25px;
+  }
+
+  h3 {
+    color: $color-secundario;
+  }
+
+  p {
+    color: $color-oscuro;
+  }
+
+  a {
+    text-decoration: none;
+    @include boton;
+
+    display: inline-block;
+    margin-top: 20px;
+
+  }
+
+  .tecnologias {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+
+    span {
+      background-color: $color-primario;
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-size: 10px;
+    }
+  }
+}

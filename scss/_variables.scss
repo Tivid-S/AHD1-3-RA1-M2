@@ -1,0 +1,28 @@
+/* COLORES */
+$color-header: (
+  rgba(94, 77, 20, 1) 0%,
+  rgba(47, 38, 10, 1) 100%
+);
+$color-primario: #7f9cf1;
+$color-secundario: #324376;
+$color-terciario: #F5DD90;
+$color-oscuro: rgb(67, 87, 199);
+$color-claro: rgb(223, 235, 190);
+$color-blanco: white;
+$color-fondo: (
+  0deg,
+  rgb(26, 24, 22) 0%,
+  rgb(147, 116, 32) 100%
+);
+$color-back: (
+  299deg,
+  rgba(18, 18, 18, 1) 0%,
+  rgba(95, 95, 95, 1) 0%,
+  rgba(179, 179, 179, 1) 24%,
+  rgba(77, 77, 77, 1) 50%,
+  rgba(179, 179, 179, 1) 77%,
+  rgba(121, 121, 121, 1) 100%,
+  rgba(18, 18, 18, 1) 100%
+);
+/* FUENTES */
+$fuente: Arial;
