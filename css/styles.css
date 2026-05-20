@@ -184,6 +184,7 @@ body img {
   }
 }
 
+/* Responsive */
 @keyframes derechaIzquierda {
   from {
     opacity: 0;
@@ -192,6 +193,12 @@ body img {
   to {
     opacity: 1;
     transform: translateX(0);
+  }
+}
+/* Responsive */
+@media (max-width: 767px) {
+  .contacto {
+    padding: 0px;
   }
 }
 ul {

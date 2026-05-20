@@ -101,12 +101,10 @@
           }
         }
       }
-
-
     }
   }
 }
-
+/* Responsive */
 @keyframes derechaIzquierda {
   from {
     opacity: 0;
@@ -117,6 +115,13 @@
     opacity: 1;
     transform: translateX(0);
   }
+}
+/* Responsive */
+@include ResCell{
+  .contacto{
+    padding: 0px;
+  }
+
 }
 
 
