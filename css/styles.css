@@ -291,6 +291,8 @@ ul li a:hover::after {
   font-weight: bold;
   display: inline-block;
   margin-top: 20px;
+
+  
 }
 .card a:hover {
   background-color: rgb(67, 87, 199);
